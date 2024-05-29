@@ -3,6 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import "../base/lyt-section.scss"
 import Header from "./component/header"
+import Gallery from "./component/Gallary"
 
 
 export default function Home() {
@@ -34,7 +35,7 @@ export default function Home() {
     }
   }
 
-  const handleChnage = (e) => {
+  const handleChnage = (e:any) => {
     setVideoUrl(e.target.value)
 
   }
@@ -65,6 +66,8 @@ export default function Home() {
         </div>
 
       </section>
+
+      <Gallery/>
     </>
   );
 }
