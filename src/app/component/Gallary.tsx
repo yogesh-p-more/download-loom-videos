@@ -42,7 +42,7 @@ const Gallary = () => {
 
                         {images.map((path, index) => (
                             <div key={index} className="col-lg-3 col-md-2 col-1">
-                                <div className="box">
+                                <div className="box h-100">
                                     <Image
                                         src={`${path}`}
                                         alt="Description of image"
