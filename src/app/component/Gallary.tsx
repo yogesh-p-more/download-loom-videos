@@ -8,13 +8,11 @@ const Gallary = () => {
     const callApi = async () => {
         const response = await axios.get("https://api.sampleapis.com/futurama/characters")
         const imageArray = response.data.map((character: any) => character.images.main);
-        console.log("imageArray", imageArray);
 
         setImages(imageArray);
     }
 
 
-    console.log("images===============>", images);
 
 
 
@@ -34,6 +32,11 @@ const Gallary = () => {
     //     "/images/Banner1.jpg",
     //     "/images/Banner1.jpg",
     // ]
+
+    const names =[
+        "yogesh",
+        "rahul"
+    ]
     return (
         <>
             <section className="lyt-section">
@@ -42,7 +45,7 @@ const Gallary = () => {
 
                         {images.map((path, index) => (
                             <div key={index} className="col-lg-3 col-md-2 col-1">
-                                <div className="box h-100">
+                                <div className="box h-100   ">
                                     <Image
                                         src={`${path}`}
                                         alt="Description of image"
@@ -50,6 +53,11 @@ const Gallary = () => {
                                         height={616}
                                     />
                                 </div>
+
+                                {names.map((name, i)=>(
+                                    <p key={i}>{name}</p>
+                                ))}
+                                
                             </div>
                         ))}
 

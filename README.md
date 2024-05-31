@@ -13,3 +13,12 @@
         i. string length
         ii. axiox package used to call the API
         iii. Uesd API response
+
+# STEPS FOR CREATING GALLERY
+    1. Create Html page :- Create one image box
+    2. Create multiple boxes using the map function
+    3. Get images url in api using axios get method 
+
+# Things i have learned
+    1. map method (for created multiple same items)
+    2. get content value in api using axios get method

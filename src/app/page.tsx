@@ -4,6 +4,7 @@ import { useState } from "react";
 import "../base/lyt-section.scss"
 import Header from "./component/header"
 import Gallery from "./component/Gallary"
+import GallaryPractice from "./component/GallaryPractice";
 
 
 export default function Home() {
@@ -68,6 +69,7 @@ export default function Home() {
       </section>
 
       <Gallery/>
+      <GallaryPractice/>
     </>
   );
 }
