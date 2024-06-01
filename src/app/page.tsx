@@ -6,6 +6,8 @@ import Header from "./component/header"
 import Gallery from "./component/Gallary"
 import GallaryPractice from "./component/GallaryPractice";
 
+import Counter from "./component/Counter";
+
 
 export default function Home() {
 
@@ -36,7 +38,7 @@ export default function Home() {
     }
   }
 
-  const handleChnage = (e:any) => {
+  const handleChnage = (e: any) => {
     setVideoUrl(e.target.value)
 
   }
@@ -68,8 +70,10 @@ export default function Home() {
 
       </section>
 
-      <Gallery/>
-      <GallaryPractice/>
+      <Gallery />
+      <GallaryPractice />
+
+      <Counter />
     </>
   );
 }
