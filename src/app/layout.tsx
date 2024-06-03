@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "../base/lyt-section.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
