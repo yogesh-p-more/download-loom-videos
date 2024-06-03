@@ -2,7 +2,7 @@
 import axios from "axios";
 import { useState } from "react";
 import "../base/lyt-section.scss"
-import Header from "./component/header"
+import Header from "./component/Header";
 import Gallery from "./component/Gallary"
 import GallaryPractice from "./component/GallaryPractice";
 

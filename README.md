@@ -22,3 +22,12 @@
 # Things i have learned
     1. map method (for created multiple same items)
     2. get content value in api using axios get method
+
+# STEPS FOR CREATING COUNTER
+    1. Create Html page :- create two buttons and one value tag
+    2. Create onClick function in React
+        i. First button for increase the value
+        ii. Second button for decrease  the value 
+    3. Create one varible using for useState
+        i. Initial value is 0 
+        ii. New Value store and print

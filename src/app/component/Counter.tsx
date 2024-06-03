@@ -6,7 +6,7 @@ const Counter = () => {
     // console.log("number set=========>" , value);
     
     const handleAddvalue = () =>{
-        alert("added")
+        // alert("added")
         setValue(value + 1)
     }
 
@@ -15,7 +15,7 @@ const Counter = () => {
         if (value === 0){
             return
         }
-        alert("Decrement")
+        // alert("Decrement")
         setValue(value - 1)
     }
 
